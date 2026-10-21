@@ -1,0 +1,15 @@
+export const ROUTES = {
+  splash: '/',
+  login: '/login',
+  access: '/access',
+  accessSuccess: '/access/success',
+  home: '/home',
+  train: '/train',
+  workoutStart: '/train/start',
+  workoutFinish: '/train/finish',
+  activity: '/activity',
+  profile: '/profile',
+  membership: '/profile/membership',
+  payments: '/profile/payments',
+  credential: '/profile/credential',
+} as const
